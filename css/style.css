@@ -1,0 +1,20 @@
+h1{
+    color: blue;
+}
+p{
+    color: lawngreen;
+}
+.h1_titulo{
+    color: blueviolet;
+}
+.h4_titulo{
+    color: brown;
+}
+#h2_inicial{
+    color: aqua;
+    font-size: 120px;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
