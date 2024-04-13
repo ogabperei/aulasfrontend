@@ -1,21 +1,52 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
 }
+body{
+    background: #3924d8 url("../img/5488082.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 p{
     text-align: justify;
 }
 .titulo{
     color: white;
+ 
 }
 .divisao{
-    background-color: rgb(137, 137, 212);
+    background-color: rgba(92, 43, 226, 0.411);
     height: 350px;
+    border-radius: 20px;
+    width: 100%;
+    color: white;
+    padding: 20px 20px;
+    border: 5px ridge rgb(169, 169, 169);
+    box-shadow: 10px 5px 30px rgba(0, 0, 0, 0.532);
+}
+.divisao:hover{
+    background-color: rgba(0, 0, 0, 0.411);
+    font-size: 18px;
+    box-shadow: 10px 5px 30px rgba(255, 255, 255, 0.223);
 }
 .divisao02{
-    background-color: blueviolet;
-    height: 350px;    
+    background-color: rgba(92, 43, 226, 0.411);
+    height: 350px;
+    border-radius: 20px;
+    padding: 20px 20px;
+    width: 100%;
+    color: white;
+    border: 5px groove rgb(194, 194, 194);
+    box-shadow: 10px 5px 30px rgba(0, 0, 0, 0.532);
+}
+.divisao02:hover{
+    background-color: rgba(0, 0, 0, 0.411);
 }
 .container{
     display: flex;
     flex-direction: row;
+    gap: 25px;
+}
+.titulo03{
+    text-align: center;
+    color: white;
 }
