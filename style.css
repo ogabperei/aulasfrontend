@@ -14,6 +14,9 @@ p{
  
 }
 .divisao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: rgba(92, 43, 226, 0.411);
     height: 350px;
     border-radius: 20px;
@@ -22,6 +25,7 @@ p{
     padding: 20px 20px;
     border: 5px ridge rgb(169, 169, 169);
     box-shadow: 10px 5px 30px rgba(0, 0, 0, 0.532);
+    overflow: auto;
 }
 .divisao:hover{
     background-color: rgba(0, 0, 0, 0.411);
@@ -29,6 +33,9 @@ p{
     box-shadow: 10px 5px 30px rgba(255, 255, 255, 0.223);
 }
 .divisao02{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: rgba(92, 43, 226, 0.411);
     height: 350px;
     border-radius: 20px;
@@ -37,6 +44,7 @@ p{
     color: white;
     border: 5px groove rgb(194, 194, 194);
     box-shadow: 10px 5px 30px rgba(0, 0, 0, 0.532);
+    overflow: auto;
 }
 .divisao02:hover{
     background-color: rgba(0, 0, 0, 0.411);
@@ -49,4 +57,13 @@ p{
 .titulo03{
     text-align: center;
     color: white;
+}
+.container img{
+    height: 200px;
+    width: 250px;
+}
+.divisao02 video{
+  display: flex;
+  flex-direction: column;
+  height: 200px;
 }
