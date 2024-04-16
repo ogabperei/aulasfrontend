@@ -67,3 +67,22 @@ p{
   flex-direction: column;
   height: 200px;
 }
+.lista5 dl{
+    color: rgb(255, 0, 0);
+    margin: 10px;
+    padding: -10px;
+}
+.lista3 dl{
+    color: rgb(0, 0, 0);
+}
+.tabela{
+    color: rgb(255, 255, 255);
+}
+.tabela th{
+    border: 1px solid rgba(255, 255, 255, 0.688);
+    padding: 15px;
+    background-color: rgb(0, 0, 0);
+}
+.imagens td{
+    padding: 80px 110px 20px 110px;
+}
